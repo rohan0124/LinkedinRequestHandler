@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <p style="font-size: 1em; text-align: center;">
+            <form class="form-data" autocomplete="on">
+                <div class="enter-thresh">
+                  Enter minimum number of mutual connections to accept request:
+                </div>
+                <div>
+                  <input type="text" class="cnt-thresh" />
+                </div>
+                <div>
+                    <input type="checkbox" id = "ignore-request-checkbox" class = "ignore-request" />
+                    <label for="ignore-request-checkbox">Ignore requests with lesser mutual connections?</label>
+                </div>
+                <button class="automate-btn">Handle requests</button>
+              </form>
+        </p>
+        <script src="main.js"></script>
+    </body>
+</html>
